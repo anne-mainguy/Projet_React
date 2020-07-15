@@ -1,0 +1,35 @@
+.inscriptionContainer{
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputFileContainer{
+display: block;
+position: relative;
+overflow: hidden;
+}
+
+.inputFile{
+  left: 0;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  font-size: 90px;
+}
+
+.inputFileContainer .button {
+  background-color: #fff;
+  border: 1px solid #CED4DA;
+  color:#6D767E;
+  padding: 4px;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+}
+
+.inputFileContainer label{
+  display: block;
+}
+

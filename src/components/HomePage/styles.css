@@ -1,0 +1,19 @@
+.article{
+  margin-bottom: 3rem;
+}
+ 
+.article .content{
+  text-align: justify;
+}
+
+.article figure {
+  display: none;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.homePage h1 {
+  padding:2rem;
+}

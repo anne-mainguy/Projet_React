@@ -1,0 +1,49 @@
+.pageError {
+  position : relative;
+  min-height: 90vh;
+
+  background: url('../../assets/img/girafe1.png') no-repeat bottom center;
+  background-size : contain;
+}
+
+.background404 {
+  position : absolute;
+  top: 0;
+  left: 0;
+  width : 100vw;
+
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.pageError div {
+  width: 100%;
+  position: absolute;
+  bottom: 12%;
+  left:50%;
+  
+  font-family: 'Piedra', cursive;
+  text-shadow: 3px 2px 4px #fFF;
+
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.pageError h1 {
+  font-size : 2.5rem;
+}
+
+.pageError p {
+  font-size : 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .pageError h1 {
+    font-size : 5rem;
+  }
+
+  .pageError p {
+    font-size: 3rem;
+  }
+}
+

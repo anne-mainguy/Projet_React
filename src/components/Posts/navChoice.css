@@ -1,0 +1,24 @@
+.nav-choice {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-choice>div {
+  margin-bottom: 10px;
+}
+
+.nav-choice .form-group {
+  margin: auto;
+}
+
+.controlTheme {
+  width: 50px;
+}
+
+@media screen and (min-width: 720px) {
+  .nav-choice {
+    flex-direction: row;
+  }
+}
+
+

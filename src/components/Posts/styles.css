@@ -1,0 +1,41 @@
+.card-header {
+  width: 266px;
+  height: 213px;
+  background-color: white;
+}
+
+img.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 0;
+  flex-wrap: wrap;
+}
+
+.card-deck .card {
+  min-width: 268px;
+  max-width: 268px;
+  margin: 10px;
+}
+
+.card-footer {
+  padding: 0;
+}
+
+@media screen and (max-width: 575px){
+
+  .card-header {
+    width: 200px;
+    height: 180px;
+  }
+
+  .card-deck .card {
+    min-width: 200px;
+    max-width: 200px;
+  }
+}

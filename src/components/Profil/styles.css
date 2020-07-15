@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+  .profil_user {
+    justify-content: start;
+  }
+
+  .profil_user_avatar {
+    text-align: right;
+  }
+
+  .profil_user_bio {
+    text-align: left;
+  }
+
+}
+
+.profil_posts {
+  border: 2px solid rgb(58, 192, 245);
+}
+
+.profil_posts h5 {
+  padding: 1rem;
+  background-color: rgb(58, 192, 245);
+}

@@ -1,0 +1,44 @@
+/* ======= FONTS =======
+
+  font-family: 'Piedra', cursive;
+
+*/
+
+.app {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  padding : 0 2rem 2rem;
+  max-width: 1200px;
+}
+
+h2 {
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+
+main a , footer a {
+  text-decoration: underline;
+}
+
+.minAvatar {
+  margin-top: .5rem;
+  background-color: white;
+}
+
+.maxAvatar{
+  object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+label span {
+  color: red;
+}
+
+.logo {
+  width : 100px;
+}

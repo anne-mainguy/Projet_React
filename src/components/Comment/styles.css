@@ -1,0 +1,43 @@
+#comments .card {
+  width : 100%;
+  
+  border: none;
+}
+
+.card article {
+  display: flex;
+  flex-direction: column;
+  width : 100%;
+  margin: 10px 0;
+
+  border: 1px solid lightslategray;
+}
+
+.comment-header {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+
+  background-color: lightgray;
+}
+
+.comment-body {
+  padding: 10px 15px;
+}
+
+.comment-header figure {
+  margin:0;
+}
+
+@media screen and (min-width: 720px){
+  .card article {
+    flex-direction: row;
+  }
+
+  .comment-header {
+    min-width : 20%;
+    text-align: left;
+    
+  }
+
+}

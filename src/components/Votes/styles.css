@@ -1,0 +1,16 @@
+.btn.like, .btn.dislike {
+  width: 80px;
+  display: inline-flex;
+}
+
+.modal-title {
+  font-size : 1.2rem;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-footer a {
+  color: white;
+}
